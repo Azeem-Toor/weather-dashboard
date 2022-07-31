@@ -1,0 +1,9 @@
+.Main__container{
+  display: flex;
+  flex-direction: column;
+  .Main__container-Content{
+   width: 100%; 
+   height: 100%;
+  display: flex;
+  }
+}

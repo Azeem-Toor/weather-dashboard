@@ -1,12 +1,15 @@
 
-import './App.css';
-
+import './App.scss';
+import SideBar from './Components/SideBar/SideBar.jsx';
+import TopBar from './Components/TopBar/TopBar.jsx';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Weather Dashboard</h1>
-      </header>
+    <div className='Main__container'>
+        <SideBar/>
+        <TopBar/>
+        <div className='Main__container-Content'>
+            <h1> data comes here</h1>
+        </div>
     </div>
   );
 }
