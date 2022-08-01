@@ -1,0 +1,31 @@
+.WeatherReports__Container
+{
+   display: flex;
+   flex-direction: column;
+   margin-top: 2rem;
+   width: 100%;
+   
+   .WeatherReports__Header{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0rem 2rem;
+    .WeatherReports__Title{
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    .WeatherReports__Button{
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+   }
+   .WeatherReports__Cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+   }
+}
+

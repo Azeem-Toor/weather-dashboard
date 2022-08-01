@@ -7,6 +7,11 @@ import Warnings from '../Assets/Warnings.png';
 import Forum from '../Assets/Forum.png';
 import Stats from '../Assets/Stats.png';
 import LogOut from '../Assets/LogOut.png';
+import Filter from '../Assets/Filter.png';
+import ActiveSliderButton from '../Assets/ActiveSliderButton.png';
+import Kejiv from '../Assets/Kejiv.png';
+import Mosco from '../Assets/Mosco.png';
+import Tokyo from '../Assets/Tokyo.png';
 export default {
   Logo,
   Calculations,
@@ -17,4 +22,9 @@ export default {
   Forum,
   Stats,
   LogOut,
+  Filter,
+  ActiveSliderButton,
+  Tokyo,
+  Kejiv,
+  Mosco,
 };

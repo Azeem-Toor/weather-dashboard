@@ -32,7 +32,7 @@ const Menus=[
   }
 ];
 const SideBar = () => {
-  const [window, setWindow] = useState(false);
+  const [window, setWindow] = useState(true);
   let MouseEntered = () => {
       setWindow(false);
   };
