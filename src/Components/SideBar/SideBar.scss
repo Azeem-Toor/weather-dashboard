@@ -1,5 +1,74 @@
-.SideBar__Contianer{
-    width: 100px;
-    height: 100vh;
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+$backgroundColor: white;
+$textcolor:#000000;
+$borderLeftColor:#FF7F5C;
+
+.navbar-menu {
+  height:100vh;
+  background-color:$backgroundColor;
+
+  transition: all 0.5s ease;
+  border-right: 1px solid #edf2f8;
+  
 }
+.burger{
+  display:flex;
+  justify-content:center;
+ 
+}
+.burger img {
+  padding: 25px 8px 0px 0px;
+  cursor: pointer;
+  padding: 1rem 1rem;
+}
+.navbar__list {
+  list-style-type: none;
+  
+}
+.navbar__li {
+  display: inline-block;
+  padding:0px 0px 0px 12px;
+  position: relative;
+  top:2px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: $textcolor;
+  font-family: "Lato";
+  font-weight: 400;
+}
+.navbar__li-box:first-child {
+  margin-top:53px;
+  
+}
+.navbar__li-box {
+  height: 43px;
+  margin-top:15px;
+}
+.navbar__li-box:hover {
+  border-left: 7px solid $borderLeftColor;
+  cursor: pointer;
+}
+
+.LogOut{
+    display:flex;
+    justify-content:flex-start;
+    position: absolute;
+    bottom: 15px;
+    left:5px;
+   cursor: pointer;
+   span{
+    margin-top:3px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: $textcolor;
+    font-family: "Lato";
+    font-weight: 400;
+   }
+  }
+  .LogOut img {
+    padding: 1rem 1rem;
+  }
+
+  
